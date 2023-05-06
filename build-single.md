@@ -46,19 +46,36 @@ Pro Micro(USB取り付け部分)をキーボードのどちら側に取り付け
 
 ### 2. Pro Microを取り付ける
 
-Pro Microはキーボード
+Pro MicroはキーボードのMCU(Micro Controller Unitの略)で平たく言うと、キーボードの頭脳部分です。  
+キーの入力をPCやタブレットに伝達する役割があります。
 
+Pro Microは取り付け位置で表裏が変わります。
+
+基板の右側にPro Microを取り付ける場合は、平たい面が上に向くようにします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4567.jpg?raw=true" width = "600px" />
+
+基板の左側にPro Microを取り付ける場合は、チップなどが乗っている面を上に向くようにします。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4566.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+Pro Microと基板を繋ぐには[コンスルー]()を使用するのがオススメです。  
+ピンヘッダというパーツを用いて基板とPro Microをハンダ付けする方法もありますが、Pro Microが壊れた時に交換が難しくなります。  
+コンスルーをPro Microにハンダ付けすると、基板への取り付けはハンダ付けをせずとも挿し込むだけで良いので交換が容易になります。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4568.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+コンスルーには向きがあります、詳しくは[こちら](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC-%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%94%E3%83%B3%E3%83%98%E3%83%83%E3%83%80-%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%96%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84#:~:text=%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC%EF%BC%88%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%94%E3%83%B3%E3%83%98%E3%83%83%E3%83%80%EF%BC%89%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%96%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84,-%E9%81%8A%E8%88%8E%E5%B7%A5%E6%88%BF&text=%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC%E3%81%AF%E9%87%91%E8%89%B2%E3%81%AE%E7%AA%93,%E3%82%92%E6%8F%83%E3%81%88%E3%81%A6%E5%B7%AE%E3%81%97%E8%BE%BC%E3%81%BF%E3%81%BE%E3%81%99%E3%80%82)の記事を御覧ください。
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+基板にコンスルーを差し込みます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4578.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+コンスルーにPro Microを載せます。Pro Microを基板の左側に置く場合はPro Microの表裏を写真とは反対にしてください。
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4579.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+コンスルーとPro Microをハンダ付けします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4584.jpg?raw=true" width = "600px" />
+
+ピンヘッダを用いる場合は基板とピンヘッダをハンダ付けします。
+
+### 
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
