@@ -229,7 +229,14 @@ PCにUSBで繋いで動作するかを確認すると尚良いです。
 
 ### 10. キーマップをカスタマイズする
 
-こちから
+[こちら](https://remap-keys.app/catalog/hN0gqZgFJvkWriQdhvu9/firmware)からRemapからVIA用のファームウェアをPro Microに書き込むことで、Webブラウザからキーマップを変更することができます。  
+
+<img width="600" alt="temp 2023-05-07 16 49 57" src="https://user-images.githubusercontent.com/4215759/236664932-613d52d2-141f-4364-b9a7-012cec4f8f70.png">
+
+Remapの使い方は[こちらの記事](https://salicylic-acid3.hatenablog.com/entry/remap-manual)を参考にすると良いかと思います。  
+
+<!---
+
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
@@ -275,3 +282,5 @@ PCにUSBで繋いで動作するかを確認すると尚良いです。
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+
+--->
