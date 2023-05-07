@@ -74,7 +74,10 @@ Pro Microと基板を繋ぐには[コンスルー]()を使用するのがオス�
 コンスルーにPro Microを載せます。Pro Microを基板の左側に置く場合はPro Microの表裏を写真とは反対にしてください。
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4579.jpg?raw=true" width = "600px" />
 
-コンスルーとPro Microをハンダ付けします。  
+コンスルーとPro Microをハンダ付けします。
+
+https://user-images.githubusercontent.com/4215759/236684506-b55b27fb-9b54-4a46-b0fb-f98aaa532069.mov
+  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4584.jpg?raw=true" width = "600px" />
 
 ピンヘッダを用いる場合は基板とピンヘッダをハンダ付けします。
