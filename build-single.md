@@ -1,5 +1,9 @@
 # 基板1枚でつくる
 
+1枚のBaumkuchen基板にキースイッチやPro Micro、LEDをハンダ付けして組み立てていきます。
+
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4606.jpg?raw=true" width = "600px" />
+
 ## 組み立てに必要なもの
 
 ### 道具
