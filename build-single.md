@@ -75,31 +75,52 @@ Pro Microと基板を繋ぐには[コンスルー]()を使用するのがオス�
 
 ピンヘッダを用いる場合は基板とピンヘッダをハンダ付けします。
 
-### 
+### 3. リセットスイッチの取り付け
 
+リセットスイッチは、Pro Microにファームウェアを書き込む際などに押すスイッチです。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4586.jpg?raw=true" width = "600px" />
+
+Pro Microの配置箇所の反対側にあります。「RESET」と書かれた箇所です。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4710.jpg?raw=true" width = "600px" />
+
+この二つの穴同士を繋ぐとリセットスイッチを押したことになります。金属製のピンセット等で通電させることでリセットスイッチを押したことと同じ挙動をします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4711.jpg?raw=true" width = "600px" />
+
+余談ですが、Pro MicroのRSTとGNDのピン同士を通電させると、リセットスイッチを押したことと同様になります。こちらもピンセットやドライバー等を用いて代用できます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4712.jpg?raw=true" width = "600px" />
+
+以上のことから、リセットスイッチを取り付けることは必須ではありません。  
+ただ、スイッチを押すだけで動作するというのは便利ではありますので、迷ったら取り付けることをオススメします。  
+以下は取り付けの手順となります。  
+
+基板の表側からリセットスイッチの足を穴に差し込みます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4587.jpg?raw=true" width = "600px" />
+
+基板の裏側からリセットスイッチの足が出ていることを確認します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4590.jpg?raw=true" width = "600px" />
+
+リセットスイッチの足と基板をハンダ付けします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4591.jpg?raw=true" width = "600px" />
+
+ハンダ付けしたリセットスイッチの足をニッパーで短くしておくと、安定性が増します。
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4593.jpg?raw=true" width = "600px" />
+
+### 4. ファームウェアの書き込み
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+### 5. キースイッチの取り付け
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+BaumkuchenマクロパッドはCherry MX互換キースイッチを取り付けることができます。  
+お好みのキースイッチを13個用意してください。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4595.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+キースイッチを基板に載せます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4596.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+そのままでは
+そのままでは直ぐに
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4597.jpg?raw=true" width = "600px" />
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
