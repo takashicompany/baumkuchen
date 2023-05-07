@@ -114,31 +114,44 @@ BaumkuchenマクロパッドはCherry MX互換キースイッチを取り付け�
 お好みのキースイッチを13個用意してください。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4595.jpg?raw=true" width = "600px" />
 
-キースイッチを基板に載せます。  
+キースイッチを基板の表側に載せます。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4596.jpg?raw=true" width = "600px" />
 
-そのままでは
-そのままでは直ぐに
-
+載せただけでは基板に固定されておらず、そのままではハンダ付けが少々難しくなりますのでマスキングテープ等で固定すると作業がスムーズになるかと思います。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4597.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+基板を裏返して、キースイッチの足が出ていることを確認します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4598.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+キースイッチの足と基板をハンダ付けします。この時キースイッチが基板から浮かないようにキースイッチを押し込むように基板を抑えながらハンダ付けをすると、キースイッチがキレイに取り付けられます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4599.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+慣れていない方は、キースイッチを取り付けるごとにキーが動作するかを確認すると、着実に作業を進められるかと思います。  
+キースイッチの取付箇所は13箇所ありますが、Pro Microの手前にある箇所はロータリーエンコーダを取り付けることも可能です。 
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4600.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+### 6. ロータリーエンコーダの取り付け
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+Pro Micro手前側の箇所はキースイッチかロータリーエンコーダを取り付けることができます。  
+ロータリーエンコーダは回転操作ができるパーツで、マウスのホイールスクロールに近い操作が可能です。  
+ロータリーエンコーダ自体を押し込むことで、キーの押下と同様の入力ができるものもあります。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4601.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+ロータリーエンコーダは基板の表側から足を差し込みます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4602.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+基板の裏側から、ロータリーエンコーダの足が出ていることを確認します。  
+足が5本のものと7本のものが一般的です。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4603.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+各ピンの説明は以下です。赤丸と青丸で囲ったピンを基板とハンダ付けします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4603_2.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+他のキースイッチ穴などと比較して、やや基板のハンダ付け箇所の穴が広めになっておりますので、正しくハンダ付けできているかを確認してください。
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4604.jpg?raw=true" width = "600px" />
+
+
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4605.jpg?raw=true" width = "600px" />
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
