@@ -206,7 +206,7 @@ Pro Micro手前側の箇所はキースイッチかロータリーエンコー�
 各ピンの説明は以下です。赤丸と青丸で囲ったピンを基板とハンダ付けします。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4603_2.jpg?raw=true" width = "600px" />
 
-他のキースイッチ穴などと比較して、やや基板のハンダ付け箇所の穴が広めになっておりますので、正しくハンダ付けできているかを確認してください。
+他のキースイッチ穴などと比較して、やや基板のハンダ付け箇所の穴が広めになっておりますので、正しくハンダ付けできているかを確認してください。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4604.jpg?raw=true" width = "600px" />
 
 基板を表にして、ロータリーエンコーダを回しても正しく固定されているかを確認します。  
