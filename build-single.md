@@ -106,9 +106,66 @@ Pro Microの配置箇所の反対側にあります。「RESET」と書かれた
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4593.jpg?raw=true" width = "600px" />
 
 ### 4. ファームウェアの書き込み
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
-### 5. キースイッチの取り付け
+ファームウェアをPro Microに書き込みます。  
+ファームウェアはキーの入力の検知をしたり、LEDを点灯させたりといったキーボードを動作させるためのプログラムみたいなものです。  
+
+Remapに動作テスト用のファームウェアを用意しておりますので、完成するまでは一旦こちらのファームウェアを使うと良いかと思います。  
+
+Remapに対応したWebブラウザから[こちらのリンク](https://remap-keys.app/catalog/hN0gqZgFJvkWriQdhvu9/firmware)を開きファームウェアを書き込んでください。
+
+テスト用ファームウェアのFlashをクリック。  
+<img src = "https://user-images.githubusercontent.com/4215759/236663787-7b852bd0-583d-47ea-82c0-5c72c5ee7334.png" width = "600px" />
+
+Bootloaderを選択してFlashをクリック。  
+<img width="600px" alt="temp 2023-05-07 16 23 58" src="https://user-images.githubusercontent.com/4215759/236663906-1cad7cf1-b092-4b5b-b28c-21399186c32c.png">
+
+Baumkuchenのリセットスイッチを押す・ピンセットなどで通電させると、Pro Microの端末が出てくるので選択して接続をクリック。
+<img width="600px" alt="temp 2023-05-07 16 25 07" src="https://user-images.githubusercontent.com/4215759/236663913-9a135bc6-1e75-43ca-8ef8-50575b41ff6a.png">
+
+書き込み終わるのを待ちます。  
+<img width="600px" alt="temp 2023-05-07 16 25 56" src="https://user-images.githubusercontent.com/4215759/236663924-3b81ccca-e2ca-4f6d-bca0-ef6c0edc9a7d.png">
+
+Successが表示されたらPro Microの書き込みが成功となります。
+
+### 5. LEDの取り付け
+BaumkuchenはLEDを取り付けて光らせることができます。
+
+LEDは完成後でも取り付けられますので、後回しにしても大丈夫ですし必要ではない方はこの項目の作業をしなくてもOKです。
+
+LEDは[SK6812MINI-E](https://shop.yushakobo.jp/collections/all-products/products/sk6812mini-e-10)を用います。  
+<img src = "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/YS-SK6812MINI-E_16829ac6-2d6d-4f3c-951f-1646c9d32912_700x.jpg" width = "600px" />
+(画像は遊舎工房さんのものを拝借)
+
+LEDは信号が流れる順番があり、取り付け順はこの番号が低いものからハンダ付けをし、都度PCなどに繋いで点灯を確認すると良いです。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4564_led.jpg?raw=true" width = "600px" />
+
+LEDは基板の裏側に取り付けます。  
+LEDのライトが表側を向くようにしつつ、LEDの向きを確認します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4688.jpg?raw=true" width = "600px" />
+
+LEDのハンダ付け箇所にハンダを溶かして載せます。  
+「予備ハンダ」と言われる作業方法です。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4689.jpg?raw=true" width = "600px" />
+
+LEDをピンセットで持ちながら、予備ハンダを溶かして足の一部をハンダ付けします。  
+LEDは熱に弱く、壊れやすいので本体を熱するのはなるべく避けましょう。
+利き腕側の足からハンダ付けすると楽かと思います。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4690.jpg?raw=true" width = "600px" />
+
+残りの足もハンダ付けします。  
+ハンダ付けする足が利き腕側に来るように基板を回転させると、失敗しづらくなります。
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4691.jpg?raw=true" width = "600px" />
+
+LEDの取り付けに慣れていない方は、一つのLEDを取り付ける毎にPCに接続して点灯するかを確認します。
+テスト用のファームウェアはいずれかのキーを押すとLEDのON/OFFを切り替えますので、点灯しなかった場合はキーを押してみてください。
+それでも点灯しない場合は、LEDが熱で壊れてしまったか、ハンダ付けが上手くいっていない可能性があります。
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4692.jpg?raw=true" width = "600px" />
+
+全部で6個のLEDを取り付けて全て点灯したら完了です。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4693.jpg?raw=true" width = "600px" />
+
+### 6. キースイッチの取り付け
 
 BaumkuchenマクロパッドはCherry MX互換キースイッチを取り付けることができます。  
 お好みのキースイッチを13個用意してください。  
@@ -130,9 +187,11 @@ BaumkuchenマクロパッドはCherry MX互換キースイッチを取り付け�
 キースイッチの取付箇所は13箇所ありますが、Pro Microの手前にある箇所はロータリーエンコーダを取り付けることも可能です。 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4600.jpg?raw=true" width = "600px" />
 
-### 6. ロータリーエンコーダの取り付け
+### 7. ロータリーエンコーダの取り付け
 
 Pro Micro手前側の箇所はキースイッチかロータリーエンコーダを取り付けることができます。  
+キースイッチを取り付けたい方はこの項目は省略しても問題ありません。  
+
 ロータリーエンコーダは回転操作ができるパーツで、マウスのホイールスクロールに近い操作が可能です。  
 ロータリーエンコーダ自体を押し込むことで、キーの押下と同様の入力ができるものもあります。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4601.jpg?raw=true" width = "600px" />
@@ -150,16 +209,30 @@ Pro Micro手前側の箇所はキースイッチかロータリーエンコー�
 他のキースイッチ穴などと比較して、やや基板のハンダ付け箇所の穴が広めになっておりますので、正しくハンダ付けできているかを確認してください。
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4604.jpg?raw=true" width = "600px" />
 
-
+基板を表にして、ロータリーエンコーダを回しても正しく固定されているかを確認します。  
+PCにUSBで繋いで動作するかを確認すると尚良いです。  
+テスト用ファームウェアではロータリーエンコーダを回すと1キーと2キーが入力されます。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4605.jpg?raw=true" width = "600px" />
 
+### 8. ゴム足シールを底面に貼り付け
+
+ゴム足のシールを底面に貼り付けて打鍵時の衝撃で動かないようにします。  
+<img src = "https://github.com/takashicompany/minidivide/blob/master/images/build/IMG_3748.jpg?raw=true" width = "600px" />
+
+以下は貼付け例です。ご自身の打鍵スタイルに合わせて調整すると良いかと思います。ゴム足の高さが足りない場合はキースイッチ、ロータリーエンコーダ、リセットスイッチの足を短くしても良いかもしれません。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4717.jpg?raw=true" width = "600px" />
+
+### 9. キーキャップを取り付ける
+
+お好みのキーキャップを取り付けます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4607.jpg?raw=true" width = "600px" />
+
+### 10. キーマップをカスタマイズする
+
+こちから
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
 
