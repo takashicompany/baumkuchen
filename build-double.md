@@ -1,6 +1,7 @@
 # 基板2枚でつくる
 
-1枚のBaumkuchen基板にキースイッチやPro Micro、LEDをハンダ付けして組み立てていきます。
+Baumkuchenの基板を2枚用いて組み立てます。PCBをスイッチプレートとして利用します。
+
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4606.jpg?raw=true" width = "600px" />
 
@@ -23,17 +24,20 @@
 |部品|個数|備考|
 |:--|:--|:--|
 |基板|1||
-|Pro Micro|1||
-|Cherry MX互換キースイッチ|13||
+|[Pro Micro](https://shop.yushakobo.jp/products/pro-micro)|1||
+|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/products/cherry-mx)|13|互換スイッチであれば良いのでKailh製やGateron製なども取り付け可能です。|
+|[M2 3.5mmスペーサー](https://shop.yushakobo.jp/products/a0800c2?variant=43940969316583)|4||
+|[M2 3mm ネジ](https://shop.yushakobo.jp/products/a0800n2)|8||
 
 ### あるとより良い部品
 
 |部品|個数|備考|
 |:--|:--|:--|
-|コンスルー|2||
-|リセットスイッチ|1||
-|LED(SK6812MINI-E)|6||
+|[コンスルー](https://shop.yushakobo.jp/products/31)|2|無くても完成しますが、コンスルーを用いたほうがメンテナンスが容易になります。詳細は[こちら](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)。|
+|[LED(SK6812MINI-E)](https://shop.yushakobo.jp/products/sk6812mini-e-10)|6|光ります。組み立て後に取り付けも可能です。|
 |ゴム足シール|4~6|100円ショップなどで売っているものを取り付けることはできますが、グリップ力が弱い製品もありますので[こちら](https://shop.yushakobo.jp/products/a0800ur-01-6)等を購入するのが良いかと思います。|
+
+※ 2枚で組む場合は、タクトスイッチ(リセットスイッチ)は取り付けません。
 
 ## 組み立て手順
 
@@ -49,6 +53,8 @@ Pro Micro(USB取り付け部分)をキーボードのどちら側に取り付け
 以下の説明はPro Microをキーボードの右側に取り付ける場合で説明を進めます。
 
 ### 2. Pro Microを取り付ける
+
+2枚あるうちの1枚にPro Micro等を取り付けます。
 
 Pro MicroはキーボードのMCU(Micro Controller Unitの略)で平たく言うと、キーボードの頭脳部分です。  
 キーの入力をPCやタブレットに伝達する役割があります。
@@ -82,10 +88,9 @@ https://user-images.githubusercontent.com/4215759/236684506-b55b27fb-9b54-4a46-b
 
 ピンヘッダを用いる場合は基板とピンヘッダをハンダ付けします。
 
-### 3. リセットスイッチの取り付け
+### 3. リセットスイッチについて
 
-リセットスイッチは、Pro Microにファームウェアを書き込む際などに押すスイッチです。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4586.jpg?raw=true" width = "600px" />
+**Baumkuchen基板を2枚で組む場合はリセットスイッチの取り付けは行いません。** 
 
 Pro Microの配置箇所の反対側にあります。「RESET」と書かれた箇所です。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4710.jpg?raw=true" width = "600px" />
@@ -95,22 +100,6 @@ Pro Microの配置箇所の反対側にあります。「RESET」と書かれた
 
 余談ですが、Pro MicroのRSTとGNDのピン同士を通電させると、リセットスイッチを押したことと同様になります。こちらもピンセットやドライバー等を用いて代用できます。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4712.jpg?raw=true" width = "600px" />
-
-以上のことから、リセットスイッチを取り付けることは必須ではありません。  
-ただ、スイッチを押すだけで動作するというのは便利ではありますので、迷ったら取り付けることをオススメします。  
-以下は取り付けの手順となります。  
-
-基板の表側からリセットスイッチの足を穴に差し込みます。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4587.jpg?raw=true" width = "600px" />
-
-基板の裏側からリセットスイッチの足が出ていることを確認します。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4590.jpg?raw=true" width = "600px" />
-
-リセットスイッチの足と基板をハンダ付けします。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4591.jpg?raw=true" width = "600px" />
-
-ハンダ付けしたリセットスイッチの足をニッパーで短くしておくと、安定性が増します。
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4593.jpg?raw=true" width = "600px" />
 
 ### 4. ファームウェアの書き込み
 
@@ -171,6 +160,59 @@ LEDの取り付けに慣れていない方は、一つのLEDを取り付ける�
 
 全部で6個のLEDを取り付けて全て点灯したら完了です。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4693.jpg?raw=true" width = "600px" />
+
+### 6. スイッチプレートの作成
+
+もう1枚のPCBをスイッチプレートとして加工します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4676.jpg?raw=true" width = "600px" />
+
+スイッチ部分にある点線(青丸の箇所)をニッパーで切ります。    
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4677_2.jpg?raw=true" width = "600px" />
+
+全部で13箇所をくり抜きます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4679.jpg?raw=true" width = "600px" />
+
+キースイッチを穴に差し込みます。入らない場合は、ニッパーで切り取り部分を削るなどします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4681.jpg?raw=true" width = "600px" />
+
+続いてPro Micro部分を切り取ります。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4682 .jpg?raw=true" width = "600px" />
+
+ニッパーで穴の空いた部分を切り離してください。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4683.jpg?raw=true" width = "600px" />
+
+スペーサーとネジで２つの基板を接続します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4684 .jpg?raw=true" width = "600px" />
+
+スイッチプレートにネジを差し込みます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4685.jpg?raw=true" width = "600px" />
+
+ネジにスペーサーを取り付けて固定します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4686.jpg?raw=true" width = "600px" />
+
+スペーサーをPro Microを取り付けた基板にネジで固定します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4695.jpg?raw=true" width = "600px" />
+
+以下のように組み上がればこの項目は完了です。  
+スイッチプレートに入れたキースイッチは一度外したほうが作業がスムーズに進むかと思います。
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4696.jpg?raw=true" width = "600px" />
+
+
+
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+
+
+
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+
+
+
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+
+
+
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
+
 
 ### 6. キースイッチの取り付け
 
