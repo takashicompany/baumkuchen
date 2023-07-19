@@ -23,16 +23,16 @@
 |部品|個数|備考|
 |:--|:--|:--|
 |基板|1||
-|Pro Micro|1||
-|Cherry MX互換キースイッチ|13||
+|[Pro Micro](https://shop.yushakobo.jp/products/pro-micro)|1||
+|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/products/cherry-mx)|13|互換スイッチであれば良いのでKailh製やGateron製なども取り付け可能です。|
 
 ### あるとより良い部品
 
 |部品|個数|備考|
 |:--|:--|:--|
-|コンスルー|2||
-|リセットスイッチ|1||
-|LED(SK6812MINI-E)|6||
+|[コンスルー](https://shop.yushakobo.jp/products/31)|2|無くても完成しますが、コンスルーを用いたほうがメンテナンスが容易になります。詳細は[こちら](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)。|
+|[タクタイルスイッチ](https://shop.yushakobo.jp/products/a0800ts-01-1)|1|Pro Microにファームウェア書き込み時に使用します。ピンセットなどで代用可能ですので、必須ではありません。|
+|[LED(SK6812MINI-E)](https://shop.yushakobo.jp/products/sk6812mini-e-10)|6|光ります。組み立て後に取り付けも可能です。|
 |ゴム足シール|4~6|100円ショップなどで売っているものを取り付けることはできますが、グリップ力が弱い製品もありますので[こちら](https://shop.yushakobo.jp/products/a0800ur-01-6)等を購入するのが良いかと思います。|
 
 ## 組み立て手順
