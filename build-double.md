@@ -198,45 +198,23 @@ LEDの取り付けに慣れていない方は、一つのLEDを取り付ける�
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4696.jpg?raw=true" width = "600px" />
 
 
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-
-
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_ .jpg?raw=true" width = "600px" />
-
-
-### 6. キースイッチの取り付け
+### 7. キースイッチの取り付け
 
 BaumkuchenマクロパッドはCherry MX互換キースイッチを取り付けることができます。  
 お好みのキースイッチを13個用意してください。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4595.jpg?raw=true" width = "600px" />
 
-キースイッチを基板の表側に載せます。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4596.jpg?raw=true" width = "600px" />
+キースイッチをスイッチプレートに差し込み、基板の裏側から足が出ていることを確認します。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4697.jpg?raw=true" width = "600px" />
 
-載せただけでは基板に固定されておらず、そのままではハンダ付けが少々難しくなりますのでマスキングテープ等で固定すると作業がスムーズになるかと思います。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4597.jpg?raw=true" width = "600px" />
-
-基板を裏返して、キースイッチの足が出ていることを確認します。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4598.jpg?raw=true" width = "600px" />
-
-キースイッチの足と基板をハンダ付けします。この時キースイッチが基板から浮かないようにキースイッチを押し込むように基板を抑えながらハンダ付けをすると、キースイッチがキレイに取り付けられます。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4599.jpg?raw=true" width = "600px" />
+キースイッチの足をはんだ付けします。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4698.jpg?raw=true" width = "600px" />
 
 慣れていない方は、キースイッチを取り付けるごとにキーが動作するかを確認すると、着実に作業を進められるかと思います。  
 キースイッチの取付箇所は13箇所ありますが、Pro Microの手前にある箇所はロータリーエンコーダを取り付けることも可能です。 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4600.jpg?raw=true" width = "600px" />
 
-### 7. ロータリーエンコーダの取り付け
+### 8. ロータリーエンコーダの取り付け
 
 Pro Micro手前側の箇所はキースイッチかロータリーエンコーダを取り付けることができます。  
 キースイッチを取り付けたい方はこの項目は省略しても問題ありません。  
@@ -246,11 +224,11 @@ Pro Micro手前側の箇所はキースイッチかロータリーエンコー�
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4601.jpg?raw=true" width = "600px" />
 
 ロータリーエンコーダは基板の表側から足を差し込みます。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4602.jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4700.jpg?raw=true" width = "600px" />
 
 基板の裏側から、ロータリーエンコーダの足が出ていることを確認します。  
 足が5本のものと7本のものが一般的です。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4603.jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4702.jpg?raw=true" width = "600px" />
 
 各ピンの説明は以下です。赤丸と青丸で囲ったピンを基板とハンダ付けします。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4603_2.jpg?raw=true" width = "600px" />
@@ -263,7 +241,7 @@ PCにUSBで繋いで動作するかを確認すると尚良いです。
 テスト用ファームウェアではロータリーエンコーダを回すと1キーと2キーが入力されます。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4605.jpg?raw=true" width = "600px" />
 
-### 8. ゴム足シールを底面に貼り付け
+### 9. ゴム足シールを底面に貼り付け
 
 ゴム足のシールを底面に貼り付けて打鍵時の衝撃で動かないようにします。  
 <img src = "https://github.com/takashicompany/minidivide/blob/master/images/build/IMG_3748.jpg?raw=true" width = "600px" />
@@ -271,12 +249,12 @@ PCにUSBで繋いで動作するかを確認すると尚良いです。
 以下は貼付け例です。ご自身の打鍵スタイルに合わせて調整すると良いかと思います。ゴム足の高さが足りない場合はキースイッチ、ロータリーエンコーダ、リセットスイッチの足を短くしても良いかもしれません。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4717.jpg?raw=true" width = "600px" />
 
-### 9. キーキャップを取り付ける
+### 10. キーキャップを取り付ける
 
 お好みのキーキャップを取り付けます。  
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4607.jpg?raw=true" width = "600px" />
 
-### 10. キーマップをカスタマイズする
+### 11. キーマップをカスタマイズする
 
 [こちら](https://remap-keys.app/catalog/hN0gqZgFJvkWriQdhvu9/firmware)からRemapからVIA用のファームウェアをPro Microに書き込むことで、Webブラウザからキーマップを変更することができます。  
 
