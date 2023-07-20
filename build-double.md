@@ -1,6 +1,6 @@
 # 基板2枚でつくる
 
-Baumkuchenの基板を2枚用いて組み立てます。PCBをスイッチプレートとして利用します。
+Baumkuchenの基板を2枚用いて組み立てます。PCBをスイッチプレートとして利用します。1枚で組む際と使用感はさほど変わりませんが、スイッチの安定感などは向上します。
 
 
 <img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_5436.jpg?raw=true" width = "600px" />
