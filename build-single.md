@@ -135,6 +135,11 @@ Baumkuchenのリセットスイッチを押す・ピンセットなどで通電�
 
 Successが表示されたらPro Microの書き込みが成功となります。
 
+Pro MicroをPC等に繋いだ状態のまま、ピンセットなどでキースイッチのハンダ付け箇所を導通させて各キーが入力されるかを確認すると、スムーズに作業が進められます。  
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_5754.jpg?raw=true" width = "600px" />
+
+
+
 ### 5. LEDの取り付け
 BaumkuchenはLEDを取り付けて光らせることができます。
 
