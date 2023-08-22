@@ -1,9 +1,9 @@
 # 基板2枚でつくる
 
-Baumkuchenの基板を2枚用いて組み立てます。PCBをスイッチプレートとして利用します。
+Baumkuchenの基板を2枚用いて組み立てます。PCBをスイッチプレートとして利用します。1枚で組む際と使用感はさほど変わりませんが、スイッチの安定感などは向上します。
 
 
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4606.jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_5436.jpg?raw=true" width = "600px" />
 
 ## 組み立てに必要なもの
 
@@ -40,6 +40,9 @@ Baumkuchenの基板を2枚用いて組み立てます。PCBをスイッチプレ
 ※ 2枚で組む場合は、タクトスイッチ(リセットスイッチ)は取り付けません。
 
 ## 組み立て手順
+
+**一部の写真は、「1枚で組み立てる」際の写真を利用しております。**
+
 
 ### 1. 基板の表裏を確認する
 
@@ -252,7 +255,7 @@ PCにUSBで繋いで動作するかを確認すると尚良いです。
 ### 10. キーキャップを取り付ける
 
 お好みのキーキャップを取り付けます。  
-<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_4607.jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/baumkuchen/blob/master/images/build/IMG_5436.jpg?raw=true" width = "600px" />
 
 ### 11. キーマップをカスタマイズする
 

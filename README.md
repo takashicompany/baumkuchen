@@ -11,7 +11,7 @@ Cherry MX互換キースイッチに対応しており、ロータリーエン�
 ## 組み立て方
 
 - [基板1枚で組み立てる](https://github.com/takashicompany/baumkuchen/blob/master/build-single.md)
-- 基板2枚で組み立てる (準備中)
+- [基板2枚で組み立てる](https://github.com/takashicompany/baumkuchen/blob/master/build-double.md)
 
 ## 完成したら
 
